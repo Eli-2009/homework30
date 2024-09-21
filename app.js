@@ -12,6 +12,7 @@ let employees = [
   ];
   for(let i = 0; i < employees.length; i++){
     if (employees[i][1] === 'development') {
-        console.log(employees[i][0]);
+      let result = Array.from(employees)
+      console.log(result[i][0]);
     }
   }
